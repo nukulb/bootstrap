@@ -8,12 +8,11 @@
 @a3:                    #434343;    //Grey   
 @a4:                    #e9721a;    //Orange
 
-
 // GLOBAL VALUES
 // --------------------------------------------------
 
 // Links
-@linkColor:             #08c;
+@linkColor:             @a4;
 @linkColorHover:        darken(@linkColor, 15%);
 
 // Grays
@@ -39,7 +38,7 @@
 @baseFontSize:          13px;
 @baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @baseLineHeight:        18px;
-@textColor:             @grayDark;
+@textColor:             @a4;
 
 // Buttons
 @primaryButtonBackground:    @linkColor;
@@ -71,8 +70,8 @@
 
 // Navbar
 @navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                darken(@a3, 15%);
+@navbarBackgroundHighlight:       @a3;
 @navbarLinkBackgroundHover:       transparent;
 
 @navbarText:                      @grayLight;
